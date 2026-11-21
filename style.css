@@ -1,0 +1,85 @@
+@import url('https://googleapis.com');
+/*my-pet.html*/
+body {
+   color: #AA5E7A;
+   background-color: white;
+   font-family: "Agrave Pro", cursive;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+}
+.pet {
+   color: rgb(124, 14, 68);
+   text-decoration: underline;
+    }
+ .card {
+ background-color: #F2DACE;
+ width: 450px;
+ padding: 10px;
+ margin: 10px;
+ border: 2px solid;
+ flex-shrink: 0;
+       }
+.card img {
+   width: 100%;
+}
+.side-by-side{
+display: flex;
+align-items: flex-start;
+gap: 20px;
+   }
+.card img.tall-cat {
+   height: 50%;
+   width: 50%;
+}
+
+/*myself.html*/
+body {
+   color:darkmagenta;
+   font-family: "Agrave Pro", cursive;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+}
+.myself {
+   background-color: lavender;
+   font-family: 'Courier New', Courier, monospace;
+   font-size: medium;
+   font-style: italic;
+    }
+.myself-card {
+background-color: darkblue;
+width: fit-content;font-family: "Agrave Pro", cursive;
+padding: 10px;
+margin: 10px;
+border: 2px solid;
+      }
+.myself-card img {
+width: 300px;
+          }
+.big {
+font-size: 30px;
+color:rgb(62, 24, 97);
+text-decoration:underline;
+     }
+
+/*index.html*/
+h1, h2, h3 {
+    color: rgb(124, 14, 68);
+    text-decoration: underline;
+       }
+body {
+    font-family: "Playwrite AU SA Guides", cursive;
+  font-weight: 400;
+  font-style: normal;
+     }
+.index-card {
+background-color: rgb(26, 216, 19);
+width: fit-content;
+padding: 10px;
+margin: 10px;
+border: 3px solid;
+}
+.index-card img {
+width: 200px;
+}
